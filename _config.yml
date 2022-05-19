@@ -1,0 +1,274 @@
+# Site
+repository: DanielMcPherson/danielmcpherson.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Daniel McPherson
+title: Software Engineer
+email: mcphersond@gmail.com
+website: https://github.com/DanielMcPherson
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: facespics
+github_username:  DanielMcPherson
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: dmcpherson9
+linkedin_username: daniel-mcpherson-a22a603
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: chess.com Link
+  icon: fas fa-chess
+  url: https://www.chess.com/member/chucklespmonkeyworth
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/daniel1.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Daniel and I'm an experienced software engineer with a demonstrated history of delivering
+  commercial software. I'm a strong believer in iterative development, breaking complex requirements into
+  incremental milestones to deliver consistent, predictable results.
+
+  Most of my work has involved writing software that drives or interacts with hardware in some way. My
+  current work is creating desktop software for fiber optic test and measurement devices, as well as
+  embedded touchscreen software for a handheld measurement device. In previous jobs I have developed
+  self checkout kiosks for libraries, and firmware for programmable logic controllers used in factory
+  automation.
+
+  I am currently working as a Software Engineering Manager at Luna Innovations. I oversee the progress
+  of development projects across multiple locations, while still rolling up my sleeves and writing code.
+
+  The things I currently have the most experience work with are:
+  <mark>C++</mark>,
+  <mark>Qt</mark>,
+  <mark>Qt Widgets</mark>,
+  <mark>QML</mark>,
+  <mark>UI design</mark>,
+  <mark>Linux</mark>,
+  <mark>Windows</mark>,
+  <mark>git</mark>,
+  <mark>github</mark> and
+  <mark>software project management</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Qt Minesweeper
+        link: https://danielmcpherson.github.io/minesweeper/minesweeper.html
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/DanielMcPherson/QtMinesweeper
+            icon: fab fa-github
+            url: github.com/DanielMcPherson/QtMinesweeper
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A Minesweeper game written in Qt with C++ and Qt Widgets
+          <br><img src="/images/MinesweeperSmall.png">
+        description: | # this will include new lines to allow paragraphs
+          A fun project to practice and demonstrate my Qt skills. The UI and backend
+          are completely decoupled and communicate only thhrough signals stored in a
+          GameSignals class.
+
+          Next steps are to create an alternate user interface in QML for more shininess
+          and to demonstrate connecting the same backend code to a different UI with no
+          backend alterations.
+
+          A Qt WebAssembly build of this project is playable online
+          [here](https://danielmcpherson.github.io/minesweeper/minesweeper.html).
+
+      - layout: top-middle
+        title: Godot Breakout
+        link: https://chucklespmonkeyworth.itch.io/breakout
+        # link_text: Project Website
+        additional_links:
+          - title:  https://github.com/DanielMcPherson/BreakoutGodot
+            icon: fab fa-github
+            url: https://github.com/DanielMcPherson/BreakoutGodot
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Breakout written in the Godot Game Engine
+          <br><img src="/images/BreakoutScreenshotSmall.png">
+        description: | # this will include new lines to allow paragraphs
+           A project I wrote while learning the [Godot game engine](https://godotengine.org/).
+           Godot is a fun, light-weight game engine with a Python-inspired scripting language.
+           I used this project as an opportunity not only to learn Godot but to practice
+           "juicing" the game with particle effects, screen shake, eyes and facial expressions
+           on the controller and ball, and fun animations and transitions.
+           (I also wrote the music!)
+
+           Play it on [itch.io](https://chucklespmonkeyworth.itch.io/breakout) or [gotm.io](https://gotm.io/chucklespmonkeyworth/breakout).
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak
+        title: Luna Innovations, Blacksburg VA
+        link: lunauinc.com
+        # link_text: lunainc.com
+        sub_title: Software Engineering Manager<br>(2020 - present)<br>
+                   Lead Software Engineer<br>(2014 - 2020)<br>
+                   Software Engineer<br>(2004 - 2014)
+        #caption: 2004 - Present
+        quote: >
+          Software development for fiber optic measurement devices using C++, Qt, LabVIEW, Python, Windows, Linux
+        description: | # this will include new lines to allow paragraphs
+            I develop Windows and Linx desktop and embedded software for fiber optic
+            test and measurement devices. I started Luna as the sole software engineer
+            for the Luna Technologies division, later becoming part of a larger software
+            team and eventually Lead Software Engineer and then Software Engineering
+            Manager for Luna Innovations. I manage software engineers and development
+            projects in multiple locations while continuing to write software, participate
+            in code reviews, and something something.
+
+            Plan implementation of new features and release schedules.
+
+            In ?year? led the development of a
+            [handheld touchscreen measurement device](https://lunainc.com/product/obr-6200-series)
+            using embedded Phytec Linux, Qt, QML, C++, and Python.
+            
+            From ?year? to ?year? I led the development of two new product families, one focused
+            on [telecommunications and photonics testing](https://lunainc.com/product/luna-6415),
+            the other using fiber optics to
+            [measure strain and temperature](https://lunainc.com/product/odisi-6000-series).
+            Both use Ubuntu Linux, Windows, Qt (Qt Widgets, QML, Qt Remote Objects, and Qt WebGL),
+            and C++.
+
+            I have developed software APIs, TCP/IP data streaming protocols, and SCPI command sets
+            to allow users to control Luna devices and integrate measurements into their own test
+            software.
+
+            In my earlier work at Luna, I developed Windows software for fiber optic test devices
+            using a LabVIEW front end calling DLLs written in Microsoft Visual C++.
+
+
+      - layout: left
+        border: weak
+        title: VTLS, Blacksburg VA
+        # link: vtls.com
+        # link_text: vtls.com
+        sub_title: Software Engineer
+        caption: 1996 - 2004
+        quote: >
+          Library software, data conversion, and RFID self checkout stations
+        description: | # this will include new lines to allow paragraphs
+            VTLS (now part of Innovative Interfaces) produced software for public, corporate, and
+            university librares. I developed software using C#, Python, Clipper, dBase, and Oracle.
+            In particular, I developed database conversion software to map customer data from foreign
+            formats into the MARC (MAchine Readable Cataloging) format used by US libraries.
+
+            I managed and led the development of an RFID-based library system, including desktop Windows
+            software, self checkout kiosks, and portable inventory system, using Microsoft Visual C++,
+            C#.NET, and Python.
+
+      - layout: left
+        border: weak
+        title: GE Fanuc, Charlottesville VA
+        # link: 
+        # link_text: 
+        sub_title: Software Engineer
+        caption: 1994 - 1996
+        quote: >
+          Embedded software for programmable logic controllers
+        description: | # this will include new lines to allow paragraphs
+            I developed firmware for programmable logic controllers used in factory automation, using
+            C and Intel x86 assembly. I designed and implemented tests of PLCs and their accessories,
+            winning the GE "Silver Dollar" award for my work on Ethernet component testing.
+
+      - layout: left
+        title: US Naval Surface Warface Center, Dahlgren VA
+        # link: 
+        # link_text: 
+        sub_title: Electronics Engineer (Co-op)
+        caption: 1990-1994
+        quote: >
+          College co-op engineering job
+        description: | # this will include new lines to allow paragraphs
+            I developed tools for testing Tomahawk cruise missile launch software, using C and C++.
+            This included a simulator to mimic fleet communications while injecting specific protocol
+            errors required for testing. I held a Secret level security clearance.
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Virginia Tech, Blacksburg VA
+        caption: 1989-1994
+        sub_title: BSc Computer Engineering
+        quote: >
+          Ut Prosim. Go Hokies!
+        description: | # this will include new lines to allow paragraphs
+          My computer engineering degree at Virginia Tech taught me solid software design
+          principals and an understanding of how computers work at the digital and electronics
+          level. Among my favorite courses were Digital Design and Microprocessors, which gave
+          me experience working on a team and dealing with memory and timing constraints that
+          were not considered in most progamming classes.
+
+          I was active in music programs at Virginia Tech, playing trumpet in the Marching
+          Virginians, the VT Wind Ensemble, and New River Valley Orchestra.
+
+          I graduated Cum Laude and In Honors, completing an Honors research project developing
+          color recognition for a computer vision system. In my senior year, I was selected as
+          one of handful of students to participate in VT's Engineering Abroad project, visiting
+          the Kansai Airport project in Osaka, Japan.
+
+  - title: When I'm Not Programming
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I play guitar, trumpet, and piano. I play trumpet in
+      [The Sauerkraut Band](https://www.sauerkrautband.com/) (German Oktoberfest music),
+      and The Figgy Pudding Band (The Sauerkraut Band, but Christmas music), and
+      the [Blacksburg Community Band](http://blacksburgcommunityband.org/index.html).
+      I have played both guitar and trumpet for the Blacksburg Community Strings Orchestra
+      and in the pit orchestra for
+      [Blacksburg Summer Musical Enterprise](https://summermusicalenterprise.org/).
+
+      I am an occasional fiction writer with a dozen published short stories including
+      ["Collector's Item" published by Daily Science Fiction](https://dailysciencefiction.com/science-fiction/robots-and-computers/daniel-mcpherson/collectors-item).
+
+      I've had a lifelong unrequited love of chess, despite not being very good at it. You can find me on
+      [chess.com](https://www.chess.com/member/chucklespmonkeyworth).
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
